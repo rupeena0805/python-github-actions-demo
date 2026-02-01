@@ -17,5 +17,5 @@ jobs:
           python-version: "3.10"
 
       - run: python -m pip install -r requirements.txt
-      - run: pytest
--run: echo "Deploying application..."
+      - run: python -m pytest
+      -run: echo "Deploying application..."
