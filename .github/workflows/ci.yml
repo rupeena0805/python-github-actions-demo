@@ -1,4 +1,4 @@
-name: Python CI
+name: Added deploy step
 
 on:
   push:
